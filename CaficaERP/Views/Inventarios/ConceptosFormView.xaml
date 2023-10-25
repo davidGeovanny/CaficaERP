@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="CaficaERP.Views.Inventarios.ConceptosFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d"  MinWidth="440" MinHeight="250"
+            >
+    <TabControl x:Name="tabControl" >
+
+        <TabItem  Header="Datos del Concepto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="96"/>
+                    <ColumnDefinition Width="96"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="96"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="label" Content="Clave:"    Grid.Row="1"   />
+                <Label x:Name="label1" Content="Nombre: " Grid.Row="2"   Grid.ColumnSpan="2"/>
+                <Label x:Name="label2" Content="Naturaleza:" Grid.Row="3"  Grid.ColumnSpan="2"/>
+                <Label x:Name="label3" Content="Folio automatico:"  Grid.Row="1" Grid.Column="3"  />
+                <Label x:Name="label4" Content="Tipo de concepto:" Grid.Row="4" />
+                <Label x:Name="label7" Content="Predefinido:" Grid.Row="5" Grid.Column="0"/>
+                <Label x:Name="label6" Content="Costo Automático:"  Grid.Row="5" Grid.Column="3"  />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Clave, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="Nombre"  Mask="[a-zA-Z0-9 _]{0,45}"  />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4"  Text="{Binding Item.Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  Mask="[a-zA-Z0-9 _]{0,45}" />
+                <dxe:ComboBoxEdit Grid.Column="4" Grid.Row="1" ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre"  EditValue="{Binding Item.FolioAutomatico,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="4" ItemsSource="{Binding LstNaturaleza}" DisplayMember="nombre" ValueMember="nombre"    EditValue="{Binding Item.Naturaleza,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"   />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="4" ItemsSource="{Binding LstTiposDocumentos}"  DisplayMember="Nombre" ValueMember="Id"  EditValue="{Binding Item.TipoDocumentoId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding DocuemntoSeleccionado}"  />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="5" ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre"    EditValue="{Binding Item.Predefinido,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"    IsEnabled="False"   />
+                <dxe:ComboBoxEdit Grid.Column="4" Grid.Row="5"  ItemsSource="{Binding LstSiNo}"  DisplayMember="nombre" ValueMember="nombre"  EditValue="{Binding Item.CostoAutomatico,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" />
+                
+            </Grid>
+        </TabItem> 
+    </TabControl>
+</UserControl>

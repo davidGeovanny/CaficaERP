@@ -1,0 +1,921 @@
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.config
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.manifest
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\CaficaERP.application
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\CaficaERP.pdb
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Images.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.HybridApp.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.LightGray.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Black.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Blue.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Silver.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Black.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Blue.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Silver.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013DarkGray.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013LightGray.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Black.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Colorful.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Seven.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.TouchlineDark.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.VS2010.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.CodeParser.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\MainWindow.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Test.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Test2.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\App.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.cache
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.lref
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\MainWindow.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Test.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Test2.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.g.resources
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.Properties.Resources.resources
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.GenerateResource.Cache
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.licenses
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.manifest
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.application
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.pdb
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csprojResolveAssemblyReference.cache
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.baml
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.g.cs
+C:\Users\kaviles\Documents\Visual Studio 2015\Projects\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.baml
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.AssemblyReference.cache
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.baml
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.baml
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Test.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Test2.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\App.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.cache
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.lref
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe
+Z:\Users\soporte\Desktop\CaficaERP\CaficaERP\obj\Debug\CaficaERP.pdb
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.AssemblyReference.cache
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test2.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\App.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.cache
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.lref
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.pdb
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\MainWindow.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.g.cs
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\MainWindow.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test2.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.baml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.g.resources
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.Properties.Resources.resources
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.GenerateResource.cache
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.licenses
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.CoreCompileInputs.cache
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.config
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.manifest
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.application
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.pdb
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Images.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.HybridApp.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.LightGray.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Black.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Blue.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Silver.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Black.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Blue.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Silver.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013DarkGray.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013LightGray.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Black.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Colorful.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Seven.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.TouchlineDark.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.VS2010.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.CodeParser.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Controls.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Docking.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Printing.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.NavBar.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.manifest
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.application
+C:\Users\systh\SyStHeM\Proyectos\Alba Soluciones\Clientes\CAFICA\Soporte y Desarrollo\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.CopyComplete
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.AssemblyReference.cache
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\SplashScreen\SplashScreenView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\MainWindow.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LectorBarraFomrView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test2.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\App.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.cache
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP_MarkupCompile.lref
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.pdb
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.config
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe.manifest
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.application
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.exe
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\CaficaERP.pdb
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Images.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.HybridApp.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.LightGray.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Black.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Blue.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2007Silver.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Black.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Blue.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2010Silver.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013DarkGray.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2013LightGray.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Black.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016Colorful.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.Seven.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.TouchlineDark.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Themes.VS2010.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.CodeParser.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Data.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Mvvm.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Controls.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Core.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Docking.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PdfViewer.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Printing.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.NavBar.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpo.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Controls.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Controls.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Controls.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Controls.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Docking.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Docking.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Docking.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Docking.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PdfViewer.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Printing.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Printing.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Printing.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Printing.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Grid.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.NavBar.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.NavBar.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.NavBar.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.NavBar.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\MainWindow.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\AccionesVistasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\BDEmpresasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\GruposVistasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\MenuModulosView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\ModulosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\RolesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\SistemasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\TablasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\UsuariosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Administracion\VistasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BaseView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\BuscadorFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\OrdendeCompraFormview.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CondicionesdePagoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\GrupoProveedoresFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ImpuestosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MonedasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Compras\ProveedoresFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\TiposCambioFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\AreasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CiudadesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\CodigosPostalesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ColoniasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\DepartamentosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\EstadosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\GirosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\MunicipiosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PaisesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\PuestosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\UnidadesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\GridBaseView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\AlmacenesGridView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ConceptosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\DevolucionesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ESInventariosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoComponentesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\GrupoUnidadesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MaquinariaHerramientasFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MarcasComponentesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MateriaPrimaFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\MercaderiaFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\PiezasAccesoriosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoSemielaboradoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ProductoTerminadoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ResguardosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Generales\ResponsablesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\ServiciosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SubGrupoComponentesFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\SuministrosFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Inventarios\TomaInventarioGridView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginEmpresasView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\LoginView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\PDFVisorReporteView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Test2.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CanjeFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\CentrosCanjeMonederoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\PremiosMonederoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\Ventas\Monedero\SociosMonederoFormView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\Views\VisorReporteView.baml
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.g.resources
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.Properties.Resources.resources
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.GenerateResource.cache
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.licenses
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.CoreCompileInputs.cache
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.exe.manifest
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.application
+D:\Documentos\ERP_Cafica\Programacion\CaficaERP\CaficaERP\obj\Debug\CaficaERP.csproj.CopyComplete

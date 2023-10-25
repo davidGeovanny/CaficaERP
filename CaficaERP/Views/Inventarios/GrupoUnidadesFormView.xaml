@@ -1,0 +1,69 @@
+﻿<UserControl xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="CaficaERP.Views.Inventarios.GrupoUnidadesFormView"
+             mc:Ignorable="d" 
+             MinHeight="300" MinWidth="600"
+             >
+    <TabControl x:Name="tabControl" >
+
+        <TabItem Header="Datos del grupo">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="800*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="label" Content="Nombre" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" />
+
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="Nombre" Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,44}"  CharacterCasing="Upper"  />
+
+                <dxlc:GroupBox Header="Configuracion"  Grid.Row="2"   Grid.ColumnSpan="2" >
+                    <dxg:GridControl ItemsSource="{Binding GruposUnidadesDetalleTemp,UpdateSourceTrigger=PropertyChanged}"  SelectedItem="{Binding GrupoUnidadSeleccionado}" SelectionMode="Row">
+                        <dxmvvm:Interaction.Behaviors>
+                            <dxmvvm:KeyToCommand KeyGesture="Delete" Command="{Binding DcEliminaFila}"/>
+                        </dxmvvm:Interaction.Behaviors>
+                        <dxg:GridControl.View>
+                            <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" NewItemRowPosition="Bottom" AllowSorting="False" AllowFilterEditor="False" AllowColumnFiltering="False">
+                                <dxmvvm:Interaction.Triggers>
+                                    <dxmvvm:EventToCommand Command="{Binding DcActualizarUnidadBase}" EventName="CellValueChanged"/>
+                                </dxmvvm:Interaction.Triggers>
+                            </dxg:TableView>
+                        </dxg:GridControl.View>
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn Header="Cantidad Equivalente" FieldName="CantidadEquivalente"/>
+                            <dxg:GridColumn Header="Unidad Equivalente" FieldName="UnidadEquivalenteId">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:ComboBoxEditSettings ItemsSource="{Binding LstUnidades}" AutoComplete="True" 
+                                                  DisplayMember="Abreviatura" ValueMember="Id" ImmediatePopup="True"/>
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn Header="=" Width="20">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:TextEditSettings NullText="="  />
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                            <dxg:GridColumn Header="Cantidad Base" FieldName="CantidadBase"/>
+                            <dxg:GridColumn Header="Unidad Base" FieldName="UnidadBaseId" ReadOnly="True">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:ComboBoxEditSettings ItemsSource="{Binding LstUnidades}" AutoComplete="True" IsEnabled="False"
+                                                  DisplayMember="Abreviatura" ValueMember="Id" />
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                    </dxg:GridControl>
+                </dxlc:GroupBox>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>
+

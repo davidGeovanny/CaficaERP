@@ -1,0 +1,37 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Administracion"
+    xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="CaficaERP.Views.Administracion.GruposVistasFormView"
+    MinHeight="160" MinWidth="400"
+             mc:Ignorable="d" >
+    <TabControl>
+        <TabItem Header="Datos del grupo">
+            
+      
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Nombre"  Grid.Row="1" />
+        <Label x:Name="label1" Content="Sistema"  Grid.Row="2" />
+        <Label x:Name="label2" Content="Modulo"  Grid.Row="3" />
+        <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" MaxLength="45" ToolTip="Nombre" Mask="[a-zA-Z0-9 _]{0,45}" />
+        <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True" Grid.Column="1" Grid.Row="2" ItemsSource="{Binding LstSistemas}"  DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.SistemaId,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay,ValidatesOnDataErrors=True}" SelectedItem="{Binding SistemaSeleccionado}" ToolTip="Sistema" />
+        <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True" Grid.Column="1" Grid.Row="3" ItemsSource="{Binding LstModulos}"  DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.ModuloId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding ModuloSeleccionado}" ToolTip="Modulo" />
+    </Grid>
+        </TabItem>
+
+    </TabControl>
+</UserControl>

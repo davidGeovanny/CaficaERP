@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="CaficaERP.Views.Administracion.TablasFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Administracion"
+              xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d" 
+             MinHeight="100" MinWidth="400"
+             >
+    <TabControl>
+        <TabItem Header="Datos de la tabla">
+            
+       
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+          
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label x:Name="label" Content="Nombre:" HorizontalAlignment="Left" Margin="10,1,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <dxe:TextEdit Grid.Column="1" Grid.Row="1" MaxLength="45" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" ToolTip="Nombre" Mask="[-._/A-Za-z0-9_]{0,45}"/>
+        
+    </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

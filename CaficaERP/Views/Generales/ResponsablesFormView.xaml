@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="CaficaERP.Views.Generales.ResponsablesFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d" 
+             MinWidth="400" MinHeight="315">
+    <TabControl x:Name="tabControl" >
+
+        <TabItem Header="Datos del responsable">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="125"/>
+                    <ColumnDefinition Width="300*"/>
+                </Grid.ColumnDefinitions>
+                <Label  Content="Nombre:"  Grid.Row="1" />
+                <Label  Content="Paterno:"  Grid.Row="2" />
+                <Label  Content="Materno:"  Grid.Row="3" />
+                <Label  Content="Correo Electronico:"  Grid.Row="4" />
+                <Label  Content="Area:"  Grid.Row="5" />
+                <Label  Content="Departamento:"  Grid.Row="6" />
+                <Label  Content="Puesto:"  Grid.Row="7" />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"   Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,45}"   />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="2"   Text="{Binding Item.Paterno,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"    Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,45}" />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="3" Text="{Binding Item.Materno,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"   Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,45}"   />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="4" Text="{Binding Item.CorreoElectronico,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"   Mask="[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}"   />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="5" AutoComplete="True" IsTextEditable="True"  ItemsSource="{Binding LstAreas}" DisplayMember="Nombre" ValueMember="Id" ToolTip="Areas" EditValue="{Binding Item.AreaId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding AreaSeleccionado}"  Mask="[A-ZÑÁÉÍÓÚ][A-ZÑÁÉÍÓÚ ]{0,44}"  />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="6" AutoComplete="True" IsTextEditable="True"  ItemsSource="{Binding LstDepartamentos}" DisplayMember="Nombre" ValueMember="Id" ToolTip="Departamentos" EditValue="{Binding Item.DepartamentoId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding DepartamentoSeleccionado}"  Mask="[A-ZÑÁÉÍÓÚ][A-ZÑÁÉÍÓÚ ]{0,44}"  />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="7" AutoComplete="True" IsTextEditable="True"  ItemsSource="{Binding LstPuestos}" DisplayMember="Nombre" ValueMember="Id" ToolTip="Puestos" EditValue="{Binding Item.PuestoId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding PuestosSeleccionado}"  Mask="[A-ZÑÁÉÍÓÚ][A-ZÑÁÉÍÓÚ ]{0,44}"  />
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

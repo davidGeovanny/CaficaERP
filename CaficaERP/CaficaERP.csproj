@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A407A3B1-E5C5-4212-AE23-871C4814300A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CaficaERP</RootNamespace>
+    <AssemblyName>CaficaERP</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\jparedes\Desktop\CaficaErp\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://10.10.1.170/InstaladorErp/</InstallUrl>
+    <ProductName>Erp Cafica</ProductName>
+    <PublisherName>Grupo Cafica</PublisherName>
+    <SuiteName>Erp Cafica</SuiteName>
+    <MinimumRequiredVersion>1.0.0.16</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>37</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IconERP.png.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6E466F256EDA3F73146B86CF95C84BF06F3A9B6D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CaficaERP_2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CaficaERP.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Controls.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Docking.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.PdfViewer.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Printing.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Grid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Grid.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.LayoutControl.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.NavBar.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.HybridApp.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Black.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Silver.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Black.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Silver.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2013.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2013DarkGray.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2013LightGray.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2016Black.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2016Colorful.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Seven.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.TouchlineDark.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2010.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ColumnTemplateSelector.cs" />
+    <Compile Include="CommitHelper.cs" />
+    <Compile Include="CountToBoolConverter.cs" />
+    <Compile Include="CrearTicket.cs" />
+    <Compile Include="Model\Administracion\AccionesVistas.cs" />
+    <Compile Include="Model\Administracion\BDEmpresas.cs" />
+    <Compile Include="Model\Administracion\BDEmpresasRoles.cs" />
+    <Compile Include="Model\Administracion\GruposVistas.cs" />
+    <Compile Include="Model\Administracion\Modulos.cs" />
+    <Compile Include="Model\Administracion\Roles.cs" />
+    <Compile Include="Model\Administracion\RolesAcciones.cs" />
+    <Compile Include="Model\Administracion\Sistemas.cs" />
+    <Compile Include="Model\Administracion\SistemasRoles.cs" />
+    <Compile Include="Model\Administracion\Tablas.cs" />
+    <Compile Include="Model\Administracion\Usuarios.cs" />
+    <Compile Include="Model\Administracion\UsuariosRoles.cs" />
+    <Compile Include="Model\Administracion\Vistas.cs" />
+    <Compile Include="Model\Administracion\VistasFiltrosReportes.cs" />
+    <Compile Include="Model\Administracion\VistasGruposVistas.cs" />
+    <Compile Include="Model\Administracion\VistasTablas.cs" />
+    <Compile Include="Model\BaseModel.cs" />
+    <Compile Include="Model\Compras\ComprasDocs.cs" />
+    <Compile Include="Model\Compras\ComprasDocsDetalles.cs" />
+    <Compile Include="Model\Compras\ComprasDocsImpuestos.cs" />
+    <Compile Include="Model\Compras\ComprasDocsLotesSeries.cs" />
+    <Compile Include="Model\Compras\ComprasDocsRelacionesDetalles.cs" />
+    <Compile Include="Model\Compras\ComprasDocsRelacionesl.cs" />
+    <Compile Include="Model\Compras\GrupoProveedores.cs" />
+    <Compile Include="Model\Compras\Proveedores.cs" />
+    <Compile Include="Model\Compras\ProveedoresContactos.cs" />
+    <Compile Include="Model\Compras\ProveedoresDirecciones.cs" />
+    <Compile Include="Model\Generales\Areas.cs" />
+    <Compile Include="Model\Generales\Ciudades.cs" />
+    <Compile Include="Model\Generales\CodigosISOMonedas.cs" />
+    <Compile Include="Model\Generales\CodigosPostales.cs" />
+    <Compile Include="Model\Generales\Colonias.cs" />
+    <Compile Include="Model\Generales\CondicionesPago.cs" />
+    <Compile Include="Model\Generales\CondicionesPagoPlazos.cs" />
+    <Compile Include="Model\Generales\Departamentos.cs" />
+    <Compile Include="Model\Generales\Estados.cs" />
+    <Compile Include="Model\Generales\Giros.cs" />
+    <Compile Include="Model\Generales\Impuestos.cs" />
+    <Compile Include="Model\Generales\ImpuestosGravados.cs" />
+    <Compile Include="Model\Generales\Monedas.cs" />
+    <Compile Include="Model\Generales\Municipios.cs" />
+    <Compile Include="Model\Generales\Paises.cs" />
+    <Compile Include="Model\Generales\Puestos.cs" />
+    <Compile Include="Model\Generales\TiposCambio.cs" />
+    <Compile Include="Model\Generales\Unidades.cs" />
+    <Compile Include="Model\Inventarios\Almacenes.cs" />
+    <Compile Include="Model\Inventarios\AlmacenesGruposComponentes.cs" />
+    <Compile Include="Model\Inventarios\Componentes.cs" />
+    <Compile Include="Model\Inventarios\ComponentesAlmacenes.cs" />
+    <Compile Include="Model\Inventarios\ComponentesCodigosBarras.cs" />
+    <Compile Include="Model\Inventarios\ComponentesEquivalenciasPartes.cs" />
+    <Compile Include="Model\Inventarios\ComponentesFormula.cs" />
+    <Compile Include="Model\Inventarios\ComponentesFormulaDetalles.cs" />
+    <Compile Include="Model\Inventarios\ComponentesImagenes.cs" />
+    <Compile Include="Model\Inventarios\ComponentesImpuestos.cs" />
+    <Compile Include="Model\Inventarios\ConceptosES.cs" />
+    <Compile Include="Model\Inventarios\ExistenciasLotesSeries.cs" />
+    <Compile Include="Model\Inventarios\GruposComponentes.cs" />
+    <Compile Include="Model\Inventarios\GruposUnidades.cs" />
+    <Compile Include="Model\Inventarios\GruposUnidadesDetalle.cs" />
+    <Compile Include="Model\Inventarios\InventariosCostos.cs" />
+    <Compile Include="Model\Inventarios\InventariosES.cs" />
+    <Compile Include="Model\Inventarios\InventariosESDetalles.cs" />
+    <Compile Include="Model\Inventarios\InventariosESLotesSeries.cs" />
+    <Compile Include="Model\Inventarios\InventariosFisicos.cs" />
+    <Compile Include="Model\Inventarios\InventariosFisicosDetalles.cs" />
+    <Compile Include="Model\Inventarios\InventariosFisicosLotesSeries.cs" />
+    <Compile Include="Model\Inventarios\InventariosSaldos.cs" />
+    <Compile Include="Model\Inventarios\LotesSeries.cs" />
+    <Compile Include="Model\Inventarios\MarcasComponentes.cs" />
+    <Compile Include="Model\Inventarios\Resguardos.cs" />
+    <Compile Include="Model\Inventarios\ResguardosDetalles.cs" />
+    <Compile Include="Model\Inventarios\ResguardosLotesSeries.cs" />
+    <Compile Include="Model\Inventarios\Responsables.cs" />
+    <Compile Include="Model\Inventarios\SubgruposComponentes.cs" />
+    <Compile Include="Model\Inventarios\TiposComponentes.cs" />
+    <Compile Include="Model\Inventarios\TiposDocumentos.cs" />
+    <Compile Include="Model\itemNavBarModel.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Model\PermisosEmpresasModel.cs" />
+    <Compile Include="Model\PermisosModel.cs" />
+    <Compile Include="Model\PermisosModelTemp.cs" />
+    <Compile Include="Model\Reportes\exports.cs" />
+    <Compile Include="Model\Reportes\outputResource.cs" />
+    <Compile Include="Model\Reportes\ReporteModel.cs" />
+    <Compile Include="Model\Reportes\reportParameter.cs" />
+    <Compile Include="Model\Reportes\ReportParameters.cs" />
+    <Compile Include="Model\Reportes\ResponseReportModel.cs" />
+    <Compile Include="Model\Temporales\DetallesComponentesTemp.cs" />
+    <Compile Include="Model\Temporales\DetallesLotes_Series_ESTemp.cs" />
+    <Compile Include="Model\Ventas\Monedero\CentrosCanjeMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\CentrosCanjeUsuariosMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\MovimientosMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\MovimientosMonederoDetalles.cs" />
+    <Compile Include="Model\Ventas\Monedero\PremiosMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\PremiosMonederoDetalles.cs" />
+    <Compile Include="Model\Ventas\Monedero\SaldosMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\SociosMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\SolicitudesCanjeMonedero.cs" />
+    <Compile Include="Model\Ventas\Monedero\SolicitudesCanjeMonederoDetalles.cs" />
+    <Compile Include="Model\Ventas\Monedero\UsuariosMonedero.cs" />
+    <Compile Include="SplashScreen\SplashScreenView.xaml.cs">
+      <DependentUpon>SplashScreenView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicClass.cs" />
+    <Compile Include="EnterKeyTraversal.cs" />
+    <Compile Include="FilteredDataSupport .cs" />
+    <Compile Include="MasterDetailService.cs" />
+    <Compile Include="ReportesResources\PDFConverter.cs" />
+    <Compile Include="ReportesResources\PropertyDefinitionTemplateSelector.cs" />
+    <Compile Include="VariablesGlobales.cs" />
+    <Compile Include="ViewModel\Compras\OrdendeCompraFormViewModel.cs" />
+    <Compile Include="ViewModel\Compras\OrdendeCompraGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CondicionesdePagoFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CondicionesdePagoGridViewModel.cs" />
+    <Compile Include="ViewModel\Compras\GrupoProveedoresFormViewModel.cs" />
+    <Compile Include="ViewModel\Compras\GrupoProveedoresGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\GirosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\GirosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ImpuestosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ImpuestosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\MonedasFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\MonedasGridViewModel.cs" />
+    <Compile Include="ViewModel\Compras\ProveedoresFormViewModel.cs" />
+    <Compile Include="ViewModel\Compras\ProveedoresGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\TiposCambioFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\TiposCambioGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\AreasFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\AreasGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\DepartamentosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\DepartamentosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\PuestosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\PuestosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\BuscadorFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\DevolucionesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\DevolucionesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\EntradasInventariosFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\EntradasInventariosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\MaquinariaHerramientasGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\MarcasComponentesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\MarcasComponentesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\MateriaPrimaGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\MercaderiaGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\PiezasAccesoriosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ProductoSemielaboradoGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ResguardosFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ResguardosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ResponsablesFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ResponsablesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\SalidasInventariosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ServiciosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\SuministrosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\TomaInventarioFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\TomaInventarioGridViewModel.cs" />
+    <Compile Include="ViewModel\ListasFormulario.cs" />
+    <Compile Include="ViewModel\PDFVisorReporteViewModel.cs" />
+    <Compile Include="ViewModel\Reporte.cs" />
+    <Compile Include="ViewModel\ServicioWS.cs" />
+    <Compile Include="ViewModel\ServicioWSReportes.cs" />
+    <Compile Include="ViewModel\TabViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\AccionesVistasFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\AccionesVistasGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\BDEmpresaFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\BDEmpresaGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\GruposVistasFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\GruposVistasGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\ModulosFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\ModulosGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\RolesFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\RolesGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\TablasFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\TablasGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CiudadesFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CiudadesGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CodigosPostalesFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\CodigosPostalesGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ColoniasFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\ColoniasGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\EstadosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\EstadosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\MunicipiosFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\MunicipiosGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\PaisesFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\PaisesGridViewModel.cs" />
+    <Compile Include="ViewModel\Generales\UnidadesFormViewModel.cs" />
+    <Compile Include="ViewModel\Generales\UnidadesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\AlmacenesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\AlmacenesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ConceptosFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ConceptosGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\GrupoComponentesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\GrupoComponentesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\GrupoUnidadesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\GrupoUnidadesGridViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ComponentesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\SubGrupoComponentesFormViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\SubGrupoComponentesGridViewModel.cs" />
+    <Compile Include="ViewModel\LoginEmpresasViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\Inventarios\ProductoTerminadoGridViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\CanjeFormViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\CanjeGridViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\CentrosCanjeMonederoFormViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\CentrosCanjeMonederoGridViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\PremiosMonederoFormViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\PremiosMonederoGridViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\SociosMonederoFormViewModel.cs" />
+    <Compile Include="ViewModel\Ventas\Monedero\SociosMonederoGridViewModel.cs" />
+    <Compile Include="ViewModel\VisorReporteViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\SistemasFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\SistemasGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\UsuariosFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\UsuariosGridViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\VistasFormViewModel.cs" />
+    <Compile Include="ViewModel\Administracion\VistasGridViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\FormularioViewModel.cs" />
+    <Compile Include="ViewModel\GridViewModel.cs" />
+    <Compile Include="Views\Administracion\AccionesVistasFormView.xaml.cs">
+      <DependentUpon>AccionesVistasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\BDEmpresasFormView.xaml.cs">
+      <DependentUpon>BDEmpresasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\GruposVistasFormView.xaml.cs">
+      <DependentUpon>GruposVistasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\MenuModulosView.xaml.cs">
+      <DependentUpon>MenuModulosView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\ModulosFormView.xaml.cs">
+      <DependentUpon>ModulosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\RolesFormView.xaml.cs">
+      <DependentUpon>RolesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\SistemasFormView.xaml.cs">
+      <DependentUpon>SistemasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\TablasFormView.xaml.cs">
+      <DependentUpon>TablasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\UsuariosFormView.xaml.cs">
+      <DependentUpon>UsuariosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\VistasFormView.xaml.cs">
+      <DependentUpon>VistasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BaseView.xaml.cs">
+      <DependentUpon>BaseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BuscadorFormView.xaml.cs">
+      <DependentUpon>BuscadorFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compras\OrdendeCompraFormview.xaml.cs">
+      <DependentUpon>OrdendeCompraFormview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\CondicionesdePagoFormView.xaml.cs">
+      <DependentUpon>CondicionesdePagoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compras\GrupoProveedoresFormView.xaml.cs">
+      <DependentUpon>GrupoProveedoresFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\ImpuestosFormView.xaml.cs">
+      <DependentUpon>ImpuestosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\MonedasFormView.xaml.cs">
+      <DependentUpon>MonedasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compras\ProveedoresFormView.xaml.cs">
+      <DependentUpon>ProveedoresFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\TiposCambioFormView.xaml.cs">
+      <DependentUpon>TiposCambioFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\AreasFormView.xaml.cs">
+      <DependentUpon>AreasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\CiudadesFormView.xaml.cs">
+      <DependentUpon>CiudadesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\CodigosPostalesFormView.xaml.cs">
+      <DependentUpon>CodigosPostalesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\ColoniasFormView.xaml.cs">
+      <DependentUpon>ColoniasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\DepartamentosFormView.xaml.cs">
+      <DependentUpon>DepartamentosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\EstadosFormView.xaml.cs">
+      <DependentUpon>EstadosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\GirosFormView.xaml.cs">
+      <DependentUpon>GirosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\MunicipiosFormView.xaml.cs">
+      <DependentUpon>MunicipiosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\PaisesFormView.xaml.cs">
+      <DependentUpon>PaisesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\PuestosFormView.xaml.cs">
+      <DependentUpon>PuestosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\UnidadesFormView.xaml.cs">
+      <DependentUpon>UnidadesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GridBaseView.xaml.cs">
+      <DependentUpon>GridBaseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\AlmacenesFormView.xaml.cs">
+      <DependentUpon>AlmacenesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\AlmacenesGridView.xaml.cs">
+      <DependentUpon>AlmacenesGridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ConceptosFormView.xaml.cs">
+      <DependentUpon>ConceptosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\DevolucionesFormView.xaml.cs">
+      <DependentUpon>DevolucionesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ESInventariosFormView.xaml.cs">
+      <DependentUpon>ESInventariosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\GrupoComponentesFormView.xaml.cs">
+      <DependentUpon>GrupoComponentesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\GrupoUnidadesFormView.xaml.cs">
+      <DependentUpon>GrupoUnidadesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\MaquinariaHerramientasFormView.xaml.cs">
+      <DependentUpon>MaquinariaHerramientasFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\MarcasComponentesFormView.xaml.cs">
+      <DependentUpon>MarcasComponentesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\MateriaPrimaFormView.xaml.cs">
+      <DependentUpon>MateriaPrimaFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\MercaderiaFormView.xaml.cs">
+      <DependentUpon>MercaderiaFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\PiezasAccesoriosFormView.xaml.cs">
+      <DependentUpon>PiezasAccesoriosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ProductoSemielaboradoFormView.xaml.cs">
+      <DependentUpon>ProductoSemielaboradoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ProductoTerminadoFormView.xaml.cs">
+      <DependentUpon>ProductoTerminadoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ResguardosFormView.xaml.cs">
+      <DependentUpon>ResguardosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Generales\ResponsablesFormView.xaml.cs">
+      <DependentUpon>ResponsablesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\ServiciosFormView.xaml.cs">
+      <DependentUpon>ServiciosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\SubGrupoComponentesFormView.xaml.cs">
+      <DependentUpon>SubGrupoComponentesFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\SuministrosFormView.xaml.cs">
+      <DependentUpon>SuministrosFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\TomaInventarioFormView.xaml.cs">
+      <DependentUpon>TomaInventarioFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventarios\TomaInventarioGridView.xaml.cs">
+      <DependentUpon>TomaInventarioGridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LectorBarraFomrView.xaml.cs">
+      <DependentUpon>LectorBarraFomrView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginEmpresasView.xaml.cs">
+      <DependentUpon>LoginEmpresasView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PDFVisorReporteView.xaml.cs">
+      <DependentUpon>PDFVisorReporteView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Test.xaml.cs">
+      <DependentUpon>Test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Test2.xaml.cs">
+      <DependentUpon>Test2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ventas\Monedero\CanjeFormView.xaml.cs">
+      <DependentUpon>CanjeFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ventas\Monedero\CentrosCanjeMonederoFormView.xaml.cs">
+      <DependentUpon>CentrosCanjeMonederoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ventas\Monedero\PremiosMonederoFormView.xaml.cs">
+      <DependentUpon>PremiosMonederoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ventas\Monedero\SociosMonederoFormView.xaml.cs">
+      <DependentUpon>SociosMonederoFormView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VisorReporteView.xaml.cs">
+      <DependentUpon>VisorReporteView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="SplashScreen\SplashScreenView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\Administracion\AccionesVistasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\BDEmpresasFormView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Administracion\GruposVistasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\MenuModulosView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\ModulosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\RolesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\SistemasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\TablasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\UsuariosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Administracion\VistasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BaseView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\BuscadorFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Compras\OrdendeCompraFormview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\CondicionesdePagoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Compras\GrupoProveedoresFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\ImpuestosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\MonedasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Compras\ProveedoresFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\TiposCambioFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\AreasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\CiudadesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\CodigosPostalesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\ColoniasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\DepartamentosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\EstadosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\GirosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\MunicipiosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\PaisesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\PuestosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\UnidadesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GridBaseView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\AlmacenesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\AlmacenesGridView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ConceptosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\DevolucionesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ESInventariosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\GrupoComponentesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\GrupoUnidadesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\MaquinariaHerramientasFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\MarcasComponentesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\MateriaPrimaFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\MercaderiaFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\PiezasAccesoriosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ProductoSemielaboradoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ProductoTerminadoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ResguardosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Generales\ResponsablesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\ServiciosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\SubGrupoComponentesFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\SuministrosFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\TomaInventarioFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inventarios\TomaInventarioGridView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LectorBarraFomrView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginEmpresasView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PDFVisorReporteView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Test2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ventas\Monedero\CanjeFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ventas\Monedero\CentrosCanjeMonederoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ventas\Monedero\PremiosMonederoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ventas\Monedero\SociosMonederoFormView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VisorReporteView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="CaficaERP_1_TemporaryKey.pfx" />
+    <None Include="CaficaERP_2_TemporaryKey.pfx" />
+    <None Include="CaficaERP_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\abrir.png" />
+    <Resource Include="Imagenes\Barras\anterior.png" />
+    <Resource Include="Imagenes\Barras\cortar.png" />
+    <Resource Include="Imagenes\Barras\eliminar.png" />
+    <Resource Include="Imagenes\Barras\home.png" />
+    <Resource Include="Imagenes\Barras\nuevo.png" />
+    <Resource Include="Imagenes\Barras\refrescar.png" />
+    <Resource Include="Imagenes\Barras\siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\buscar.png" />
+    <Resource Include="Imagenes\Barras\cancelar.png" />
+    <Resource Include="Imagenes\Barras\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\empresas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\logocafica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\compras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\configuracion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\roles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\guardarlimpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Login\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Login\candado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Login\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Modulos\administracion.png" />
+    <Resource Include="Imagenes\Modulos\Compras.png" />
+    <Resource Include="Imagenes\Modulos\contabilidad.png" />
+    <Resource Include="Imagenes\Modulos\inventarios.png" />
+    <Resource Include="Imagenes\Modulos\mantenimiento.png" />
+    <Resource Include="Imagenes\Modulos\produccion.png" />
+    <Resource Include="Imagenes\Modulos\reportes.png" />
+    <Resource Include="Imagenes\Modulos\ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\modulos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\sistemas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\gruposvistas.png" />
+    <Resource Include="Imagenes\Menu\vistas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\acciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\buscarblanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\tablas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\paises.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\estados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\municipios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\ciudades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\codigospostales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\colonias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Formularios\Quitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Formularios\Agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\productoterminado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\gruposunidades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\unidades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\piezasyaccesorios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\gruposcomponentes.png" />
+    <Resource Include="Imagenes\Menu\subgruposcomponentes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\almacenes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\conceptosES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\productosemielaborado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\Suministros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\servicios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\maquinaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\entradasinventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\mercaderias.png" />
+    <Resource Include="Imagenes\Menu\salidasinventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\materiaprima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\reporteexistencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\reportekardex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Formularios\Generar.png" />
+    <Resource Include="Imagenes\Formularios\Limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\inventariofisico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\numerosserie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\lote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\marcas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\salidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\entradas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\entradas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\analisisexistencias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\resguardos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\IconERP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IconERP.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SplashScreen\LogoERP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Barras\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\puestos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\departamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\areas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\moneda.png" />
+    <Resource Include="Imagenes\Menu\tipocambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\impuestos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\grupoproveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\condicionespago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\giros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\proveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\premios.png" />
+    <Resource Include="Imagenes\Menu\socios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\centroscanje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Menu\canje.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

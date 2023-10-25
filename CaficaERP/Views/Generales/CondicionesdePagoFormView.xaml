@@ -1,0 +1,130 @@
+﻿<UserControl x:Class="CaficaERP.Views.Generales.CondicionesdePagoFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Compras"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             MinHeight="480" MinWidth="600">
+    <TabControl x:Name="tabControl" >
+
+        <TabItem  Header="Condicion de pago">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="530*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="180"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="120"/>
+                </Grid.RowDefinitions>
+                <dxlc:GroupBox  Header="Información General">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="400" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="35"/>
+
+                        </Grid.RowDefinitions>
+                        <Label Content="Nombre: "  Grid.Row="0" />
+
+                        <dxe:TextEdit  Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4" Mask="[A-ZÑÁÉÍÓÚ0-9][A-ZÑÁÉÍÓÚ0-9 .,]{0,44}" />
+
+                    </Grid>
+                </dxlc:GroupBox>
+                <dxlc:GroupBox  Header="Plazos" Grid.Row="2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="10" />
+                            <ColumnDefinition Width="105" />
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="70" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="20"/>
+                        </Grid.RowDefinitions>
+
+
+                        <Label  Content="Enganche (%):"  Grid.Column="3" />
+                        <Label  Content="Numero de pago:"  Grid.Column="3" Grid.Row="1" />
+                        <Label  Content="Dias entre de pago:"  Grid.Column="3" Grid.Row="2" />
+                        <dxg:GridControl Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="4" ItemsSource="{Binding Item.CondicionesPagoPlazos,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedItem="{Binding DetalleSeleccionado}" CurrentItem="{Binding DetalleActual}"  SelectionMode="Row" >
+                            <dxg:GridControl.TotalSummary>
+                                <dxg:GridSummaryItem FieldName="Porcentaje" SummaryType="Sum"  DisplayFormat=" {0:n2}%"   Alignment="Right" />
+                                <dxg:GridSummaryItem  SummaryType="Count"  DisplayFormat=" {0} Pagos "  Alignment="Left" />
+                            </dxg:GridControl.TotalSummary>
+                            <dxg:GridControl.View>
+                                <dxg:TableView  x:Name="view" NewItemRowPosition="Bottom" ShowFixedTotalSummary="True" ShowTotalSummary="False" AllowSorting="False" AllowScrollAnimation="True" AutoWidth="True" AllowEditing="True" ShowGroupPanel="False" EnterMoveNextColumn="True" >
+
+                                    <dxmvvm:Interaction.Triggers>
+                                        <dxmvvm:EventToCommand Command="{Binding ValorCeldaCambioCommand}" EventName="CellValueChanged" PassEventArgsToCommand="True">
+                                            <dxmvvm:EventToCommand.EventArgsConverter>
+                                                <dx:EventArgsToDataCellConverter />
+                                            </dxmvvm:EventToCommand.EventArgsConverter>
+                                        </dxmvvm:EventToCommand>
+                                    </dxmvvm:Interaction.Triggers>
+                                    <dxmvvm:Interaction.Behaviors>
+                                        <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding EliminaFilaCommand}"/>
+
+                                    </dxmvvm:Interaction.Behaviors>
+                                </dxg:TableView>
+                            </dxg:GridControl.View>
+                            <dxg:GridControl.Columns>
+                                <dxg:GridColumn Header="Dias" Width="175" FieldName="Dias" />
+                                <dxg:GridColumn Header="Procentaje" Width="175" FieldName="Porcentaje" />
+
+
+
+                            </dxg:GridControl.Columns>
+                        </dxg:GridControl>
+                        <dxe:TextEdit  Text="{Binding Enganche,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="0"  Mask="[0-9][0-9]{0,10}" />
+                        <dxe:TextEdit  Text="{Binding NumerodePagos,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="1"  Mask="[0-9][0-9]{0,10}" />
+                        <dxe:TextEdit  Text="{Binding DiasdePagos,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="2"  Mask="[0-9][0-9]{0,10}" />
+                        <Button x:Name="button" Content="Contado" Grid.Column="4" Grid.Row="3" Margin="0,4,7,-4" Command="{Binding ContadoCommand}"/>
+                        <Button x:Name="button1" Content="Calcular" Grid.Column="5" Grid.Row="3" Margin="6,4,0,-4" Command="{Binding CreditoCommand}"/>
+
+                    </Grid>
+                </dxlc:GroupBox>
+                <dxlc:GroupBox  Header="Descuento por pornto pago" Grid.Row="4" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90" />
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="105" />
+                            <ColumnDefinition Width="150" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+
+                        </Grid.RowDefinitions>
+
+                        <Label Content="Porcentaje:" Grid.Column="0"/>
+                        <Label  Content="Dias de pago:"  Grid.Column="3" />
+                        <Label  Content="Predeterminado"  Grid.Row="1" />
+                        <dxe:TextEdit  Grid.Column="1" Text="{Binding Item.DescProntoPago,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  />
+                        <dxe:TextEdit  Grid.Column="5" Text="{Binding Item.DiasProntoPago,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  />
+                        <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True" Grid.Column="1" Grid.Row="1" ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre" EditValue="{Binding Item.Predeterminado, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+
+
+
+                    </Grid>
+                </dxlc:GroupBox>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

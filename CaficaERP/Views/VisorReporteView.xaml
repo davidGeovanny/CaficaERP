@@ -1,0 +1,152 @@
+﻿<dx:DXWindow 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxpdf="http://schemas.devexpress.com/winfx/2008/xaml/pdf"
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+    xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:dxg="clr-namespace:DevExpress.Xpf.Grid.LookUp;assembly=DevExpress.Xpf.Grid.v16.1"
+    xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+    xmlns:grid="clr-namespace:DevExpress.Xpf.Grid;assembly=DevExpress.Xpf.Grid.v16.1"
+       xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+    xmlns:reportes="clr-namespace:CaficaERP.ReportesResources"
+      xmlns:filtered="clr-namespace:CaficaERP"
+    x:Class="CaficaERP.Views.VisorReporteView" WindowState="Maximized" Title="{Binding Titulo}"
+     Height="600" Width="525"
+    >
+
+    
+    <dx:DXWindow.Resources>
+
+
+     
+        <reportes:PDFConverter x:Key="PDFConverter"/>
+        <reportes:PropertyDefinitionTemplateSelector x:Key="TemplateSelector">
+            <reportes:PropertyDefinitionTemplateSelector.ComboTemplate>
+                <DataTemplate>
+                    <dxprg:PropertyDefinition
+						Header="{Binding Path=Name}"
+						Path="{Binding Path=Name}"
+                        Description="{Binding}">
+                        <dxprg:PropertyDefinition.EditSettings>
+                           
+                                <dxe:ComboBoxEditSettings Name="PART_Editor" ItemsSource="{Binding Path=SourceData,UpdateSourceTrigger=PropertyChanged}" 
+                                          AutoComplete="True" IsTextEditable="True" ImmediatePopup="True" ValueMember="{Binding Path=CampoValue,UpdateSourceTrigger=PropertyChanged}" DisplayMember="{Binding Path=CampoDisplay,UpdateSourceTrigger=PropertyChanged}"
+                                                 
+                                                      />
+                            
+                            
+                        </dxprg:PropertyDefinition.EditSettings>
+                    </dxprg:PropertyDefinition>
+                </DataTemplate>
+            </reportes:PropertyDefinitionTemplateSelector.ComboTemplate>
+           
+            <reportes:PropertyDefinitionTemplateSelector.DateTemplate>
+                <DataTemplate>
+                    <dxprg:PropertyDefinition
+						Header="{Binding Path=Name}"
+						Path="{Binding Path=Name}"
+						Description="{Binding}">
+                        <dxprg:PropertyDefinition.EditSettings>
+                            <dxe:DateEditSettings >
+                                <dxe:DateEditSettings.StyleSettings>
+                                    <dxe:DateEditCalendarStyleSettings/>
+                                </dxe:DateEditSettings.StyleSettings>
+                            </dxe:DateEditSettings>
+                        </dxprg:PropertyDefinition.EditSettings>
+                    </dxprg:PropertyDefinition>
+                </DataTemplate>
+            </reportes:PropertyDefinitionTemplateSelector.DateTemplate>
+
+            <reportes:PropertyDefinitionTemplateSelector.LookUpTemplate>
+               
+                <DataTemplate>
+                    <dxprg:PropertyDefinition Header="{Binding Path=Name}"
+						Path="{Binding Path=Name}"
+                        Description="{Binding}">
+                        <dxprg:PropertyDefinition.EditSettings>
+
+                            <dxg:LookUpEditSettings
+                                Name="PART_Editor"
+                                ItemsSource="{Binding Path=SourceDataL,UpdateSourceTrigger=PropertyChanged}"
+                                ValueMember="Id"
+                                DisplayMember="Nombre"                             
+                                ImmediatePopup="True" AutoPopulateColumns="True" AutoComplete="True" IsPopupAutoWidth="False"       >
+                                <dxg:LookUpEditSettings.StyleSettings>
+                                    <dxg:SearchLookUpEditStyleSettings />
+                                </dxg:LookUpEditSettings.StyleSettings>
+                            </dxg:LookUpEditSettings>
+            
+                        </dxprg:PropertyDefinition.EditSettings>
+                    </dxprg:PropertyDefinition>
+                </DataTemplate>
+            </reportes:PropertyDefinitionTemplateSelector.LookUpTemplate>
+
+        </reportes:PropertyDefinitionTemplateSelector>
+      
+
+    </dx:DXWindow.Resources>
+
+    <dxlc:DockLayoutControl>
+        <dxdo:DockLayoutManager >
+            <dxdo:DockLayoutManager.AutoHideGroups  >
+                <!--Create one AutoHideGroup on the right-->
+                <dxdo:AutoHideGroup   Visibility="{Binding PanelFiltrosVisibility}" >
+
+                    <dxdo:LayoutPanel   x:Name="paneFiltros" Caption="Filtros del Reporte" ItemWidth="400" AllowClose="False"   AutoHideExpandState="{Binding PanelFiltrosState,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="500"/>
+                                <RowDefinition Height="10"/>
+                                <RowDefinition Height="40"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <dxprg:PropertyGridControl SelectedObject="{Binding Dict,UpdateSourceTrigger=PropertyChanged}" dxlc:DockLayoutControl.Dock="Left"  PropertyDefinitionsSource="{Binding Properties,UpdateSourceTrigger=PropertyChanged}"  
+        PropertyDefinitionTemplateSelector="{StaticResource TemplateSelector}"
+                                   ShowProperties="WithPropertyDefinitions" ExpandCategoriesWhenSelectedObjectChanged="True" ShowCategories="False" >
+                                <dxmvvm:Interaction.Triggers>
+                                    <dxmvvm:EventToCommand Command="{Binding DCCambioValorCelda}" EventName="HiddenEditor" PassEventArgsToCommand="True" />
+                                </dxmvvm:Interaction.Triggers>
+                            </dxprg:PropertyGridControl>
+
+                            <Grid Grid.Row="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="15" />
+                                    <ColumnDefinition Width="125" />
+                                    <ColumnDefinition Width="10" />
+                                    <ColumnDefinition Width="200*" />
+                                    <ColumnDefinition Width="15" />
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="3"   Command="{Binding DcGenerarReporte}" Content="GENERAR REPORTE">
+                                    <!--<StackPanel Orientation="Horizontal">
+                                        <Image  Source="/CaficaERP;component/Imagenes/Formularios/Generar.png" Stretch="UniformToFill" Width="24" Height="24" />
+                                        <TextBlock HorizontalAlignment="Center" >Generar Reporte</TextBlock>
+                                    </StackPanel>-->
+                                </Button>
+                                <Button Grid.Column="1"  Command="{Binding DCLimpiarFiltros}" Content="LIMPIAR FILTROS" >
+                                   <!-- <StackPanel Orientation="Horizontal">
+                                        <Image  Source="/CaficaERP;component/Imagenes/Formularios/Limpiar.png" Stretch="UniformToFill" Width="24" Height="24" />
+                                        <TextBlock HorizontalAlignment="Center" >LIMPIAR FILTROS</TextBlock>
+                                    </StackPanel>-->
+                                </Button>
+                            </Grid>
+
+                        </Grid>
+                    </dxdo:LayoutPanel>
+                </dxdo:AutoHideGroup>
+            </dxdo:DockLayoutManager.AutoHideGroups>
+          
+        </dxdo:DockLayoutManager>
+
+      <!--  <dxpdf:PdfViewerControl CommandBarStyle="Bars" dxlc:DockLayoutControl.Dock="Client" DocumentSource="{Binding Reporte, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
+            
+        </dxpdf:PdfViewerControl>-->
+        <ContentControl  dxlc:DockLayoutControl.Dock="Client" Content="{Binding Reporte}"></ContentControl>
+    </dxlc:DockLayoutControl>
+</dx:DXWindow>

@@ -1,0 +1,75 @@
+﻿<UserControl xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"  xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"  x:Class="CaficaERP.Views.Administracion.RolesFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Administracion"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             mc:Ignorable="d"  MinHeight="500"
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <TabControl x:Name="tabControl">
+        <TabItem Header="Empresas">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="500*"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="label" Content="Nombre"   Grid.Row="1" Grid.Column="0" />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" MaxLength="45" ToolTip="Nombre" IsReadOnly="{Binding ReadOnly}" />
+                <Label x:Name="label2" Content="Empresas:"  Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <dxg:GridControl  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" SelectionMode="Row" AllowLiveDataShaping="False" AutoExpandAllGroups="True" ItemsSource="{Binding LstBDEmpresas,ValidatesOnDataErrors=True}" SelectedItem="{Binding EmpresaSeleccionada}">
+                    <dxg:GridControl.View>
+                        <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" />
+                    </dxg:GridControl.View>
+                    <dxg:GridControl.Columns>
+                        <dxg:GridColumn Header=" " Binding="{Binding isChecked,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Width="20" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="RFC" Binding="{Binding RFC,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Width="150" ReadOnly="True" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Razon Social" Binding="{Binding RazonSocial}" Width="200" ReadOnly="True"></dxg:GridColumn>
+                    </dxg:GridControl.Columns>
+                </dxg:GridControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Permisos">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="500*"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300*"/>
+                </Grid.ColumnDefinitions>
+                <dxe:CheckEdit Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Content="Tiene permisos de Administrador" IsChecked="{Binding Administrador,UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="label3" Content="Permisos:" HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
+                <dxg:TreeListControl  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding LstPermisos,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding PermisoSeleccionado,UpdateSourceTrigger=PropertyChanged}"  SelectionMode="Row">
+                    <dxg:TreeListControl.Columns>
+                        <dxg:TreeListColumn FieldName="IsChecked" Width="20" />
+                        <dxg:TreeListColumn FieldName="Nombre" Width="250" ReadOnly="True" />
+                    </dxg:TreeListControl.Columns>
+                    <dxg:TreeListControl.View>
+                        <dxg:TreeListView Name="treeListView2" ShowTotalSummary="True" KeyFieldName="Index" ShowIndicator="False" ShowColumnHeaders="False"
+                                  ParentFieldName="ParentId"  AllowRecursiveNodeChecking="True" ShowHorizontalLines="False" ShowVerticalLines="False">
+                            <dxmvvm:Interaction.Triggers>
+                                <dxmvvm:EventToCommand Command="{Binding DcCell}" EventName="CellValueChanging"/>
+                            </dxmvvm:Interaction.Triggers>
+                        </dxg:TreeListView>
+                    </dxg:TreeListControl.View>
+                </dxg:TreeListControl>
+                <dxe:CheckEdit Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="3"  Width="150" Visibility="Hidden"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+
+</UserControl>

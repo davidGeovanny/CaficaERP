@@ -1,0 +1,539 @@
+﻿<UserControl x:Class="CaficaERP.Views.Inventarios.ProductoSemielaboradoFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+             MinHeight="460" MinWidth="800"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <TabControl x:Name="tabControl">
+
+        <TabItem Header="Información General">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="460*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="485*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="290"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="220"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="230*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="475*"/>
+                    </Grid.ColumnDefinitions>
+                    <dxlc:GroupBox  Header="Datos Generales" Grid.Row="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="36"/>
+                                <RowDefinition Height="36"/>
+                                <RowDefinition Height="36"/>
+                                <RowDefinition Height="36"/>
+                                <RowDefinition Height="36"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="450*"/>
+                            </Grid.ColumnDefinitions>
+                            <!--Fila 0-->
+                            <Grid Grid.Row="0">
+                                <Grid.RowDefinitions >
+                                    <RowDefinition />
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="56"/>
+                                    <ColumnDefinition Width="150"/>
+                                    <ColumnDefinition Width="9"/>
+                                    <ColumnDefinition Width="85"/>
+                                    <ColumnDefinition Width="150*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="lblClave" Content="Clave:"  />
+                                <dxe:TextEdit Grid.Row="0" Grid.Column="1" Text="{Binding Item.Clave, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True,NotifyOnValidationError=true}" IsReadOnly="True"  Opacity="0.7"/>
+                                <Label Grid.Row="0" Grid.Column="3"  x:Name="lblNombreCorto" Content="Nombre Corto:"/>
+                                <dxe:TextEdit   Grid.Row="0" Grid.Column="4" Text="{Binding Item.NombreCorto, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"    Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,29}" />
+                            </Grid>
+                            <!--Fila 1-->
+                            <Grid Grid.Row="1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="56"/>
+                                    <ColumnDefinition Width="394*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label  Grid.Row="0"  Grid.Column="0"  x:Name="lblNombre" Content="Nombre:" />
+                                <dxe:TextEdit Grid.Row="0"  Grid.Column="1"  Text="{Binding Item.Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" MaxLength="45"  Mask="[A-ZÑÁÉÍÓÚ0-9]([A-ZÑÁÉÍÓÚ0-9 ]|[^A-Za-z0-9]){0,199}"/>
+                            </Grid>
+                            <!--Fila 2-->
+                            <Grid Grid.Row="2" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="56"/>
+                                    <ColumnDefinition Width="150*"/>
+                                  
+                                </Grid.ColumnDefinitions>
+                                <Label  Grid.Column="0" x:Name="lblGrupo" Content="Grupo:"/>
+                                <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True" ImmediatePopup="True"  Grid.Column="1" ItemsSource="{Binding LstGruposComponentes}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.GrupoComponentesId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding GrupoComponentesSeleccionado}" />
+                                 </Grid>
+                            <!--Fila 3-->
+                            <Grid Grid.Row="3" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="56"/>
+                                    <ColumnDefinition Width="150*"/>
+                                  
+                                </Grid.ColumnDefinitions>
+                               <Label   Grid.Column="0" x:Name="lblSubgrupo" Content="Subgrupo:" />
+                                <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True" Grid.Column="1" ItemsSource="{Binding LstSubgruposComponentes}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.SubgrupoComponentesId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding SubgrupoComponentesSeleccionado}" />
+                            </Grid>
+                            <!--Fila 4-->
+                            <Grid Grid.Row="4" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="35"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="56"/>
+                                    <ColumnDefinition Width="270*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="83*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock TextWrapping="WrapWithOverflow">
+                                Grupo de Unidades:
+                                </TextBlock>
+                                <!--<Label  Grid.Column="0" Grid.Row="0" x:Name="lblGrupoUnidad" Content="Gpo.  de Unid.:" ToolTip="Grupo de Unidades" />-->
+                                <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True" Grid.Column="1"  Grid.Row="4" ItemsSource="{Binding LstGruposUnidades}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.GrupoUnidadesId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding GrupoUnidadesSeleccionado}" />
+                                <Label  Grid.Column="3" x:Name="lblActivo" Content="Activo:"/>
+                                <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True"  Grid.Column="4" ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre"  EditValue="{Binding Item.Activo,UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  />
+
+                            </Grid>
+                        </Grid>
+                    </dxlc:GroupBox>
+                    <dxlc:GroupBox  Header="Códigos de Barra" Grid.Row="2">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="445*"/>
+
+                            </Grid.ColumnDefinitions>
+                            <dxg:GridControl ItemsSource="{Binding lstCodigosBarraTemp,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding CodigoSeleccionado}"  SelectionMode="Row" >
+                                <dxmvvm:Interaction.Behaviors>
+                                    <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding DcEliminaFila}" CommandParameter="1"/>
+                                </dxmvvm:Interaction.Behaviors>
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" NewItemRowPosition="Bottom" AllowSorting="False" AllowFilterEditor="False" AllowColumnFiltering="False"/>
+                                </dxg:GridControl.View>
+                                <dxg:GridControl.Columns>
+                                    <dxg:GridColumn Header="Unidad" Width="175" FieldName="UnidadId" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:ComboBoxEditSettings ItemsSource="{Binding LstUnidades}" AutoComplete="True" 
+                                                  DisplayMember="Abreviatura" ValueMember="Id" ImmediatePopup="True"/>
+                                        </dxg:GridColumn.EditSettings>
+
+                                    </dxg:GridColumn>
+
+                                    <dxg:GridColumn Header="Codigo" Width="175" FieldName="CodigoBarra" ></dxg:GridColumn>
+                                    <dxg:GridColumn Header="Activo" Width="50" FieldName="Activo" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:ComboBoxEditSettings ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre" AutoComplete="True" ImmediatePopup="True"  />
+                                        </dxg:GridColumn.EditSettings>
+
+                                    </dxg:GridColumn>
+                                </dxg:GridControl.Columns>
+                            </dxg:GridControl>
+
+
+
+                        </Grid>
+                    </dxlc:GroupBox>
+                </Grid>
+                <dxlc:GroupBox  Header="Imagen del producto" Grid.Column="2">
+                    <Grid>
+
+                        <dxe:ImageEdit  ShowMenu="True" EditValue="{Binding Imagen, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ShowLoadDialogOnClickMode="Always" AllowNullInput="True" />
+
+                    </Grid>
+                </dxlc:GroupBox>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Inventarios y Unidades">
+            <Grid  MinHeight="460" MinWidth="775">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="300*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="775*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="15"/>
+                        <ColumnDefinition Width="460*"/>
+                    </Grid.ColumnDefinitions>
+                    <dxlc:GroupBox  Header="Datos de inventarios" Grid.Column="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="170*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label  Grid.Column="0" Grid.Row="0" x:Name="lblInventariable" Content="Inventariable:"  />
+                            <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="0" AutoComplete="True" IsTextEditable="True"  ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre" EditValue="{Binding Item.Inventariable, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding InventariableSeleccionado}" />
+                            <Label  Grid.Column="0" Grid.Row="1"  x:Name="lblTipoSeguimiento" Content="Tipo de Seguimiento:" />
+                            <dxe:ComboBoxEdit  Grid.Column="1" Grid.Row="1" AutoComplete="True" IsTextEditable="True" ItemsSource="{Binding LstTiposSeguimiento}"  DisplayMember="nombre" ValueMember="nombre"   EditValue="{Binding Item.TipoSeguimiento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+                        </Grid>
+                    </dxlc:GroupBox>
+                    <dxlc:GroupBox  Header="Unidades" Grid.Column="2">
+                        <Grid>
+                            <Grid.RowDefinitions>
+
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="190*"/>
+
+                            </Grid.ColumnDefinitions>
+
+
+                            <Label  Grid.Column="0" Grid.Row="0" x:Name="lblUnidadInventario" Content="Unidad de Inventario:" />
+                            <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True" Grid.Column="1" Grid.Row="0"  ItemsSource="{Binding LstUnidades}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.UnidadInventarioId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding UnidadInventarioSeleccionada}"/>
+                            <Label  Grid.Column="0" Grid.Row="1" x:Name="lblUnidadVenta" Content="Unidad de Venta:" />
+                            <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True" Grid.Column="1" Grid.Row="1"  ItemsSource="{Binding LstUnidades}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.UnidadVentaId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding UnidadVentaSeleccionada}"  />
+                            <Label  Grid.Column="0" Grid.Row="2" x:Name="lblUnidadCompra" Content="Unidad de Compra:" />
+                            <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True" Grid.Column="1" Grid.Row="2"  ItemsSource="{Binding LstUnidades}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.UnidadCompraId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding UnidadCompraSeleccionada}"  />
+                        </Grid>
+                    </dxlc:GroupBox>
+                </Grid>
+                <dxlc:GroupBox  Header="Configuración de Almacenes" Grid.Row="2">
+
+                    <dxg:GridControl SelectionMode="Row" ItemsSource="{Binding LstAlmacenesConfig,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding AlmacenSeleccionado}"   >
+
+                        <dxg:GridControl.View>
+                            <dxg:TableView AllowPerPixelScrolling="True"  AllowGrouping="False" ShowGroupPanel="False"  AllowEditing="True" />
+                        </dxg:GridControl.View>
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn Header="Almacén" FieldName="Almacen" ReadOnly="True" Width="150"></dxg:GridColumn>
+                            <dxg:GridColumn Header="Máximo" Width="75" FieldName="Maximo"></dxg:GridColumn>
+                            <dxg:GridColumn Header="Reorden"  Width="75" FieldName="Reorden" ></dxg:GridColumn>
+                            <dxg:GridColumn Header="Mínimo"  Width="75" FieldName="Minimo"></dxg:GridColumn>
+                            <dxg:GridColumn Header="Localización" FieldName="Localizacion" ></dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                    </dxg:GridControl>
+
+                </dxlc:GroupBox>
+
+            </Grid>
+
+        </TabItem>
+
+        <TabItem Header="Fórmula">
+            <Grid  MinHeight="460" MinWidth="775">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="460*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="775*"/>
+                </Grid.ColumnDefinitions>
+                <dxlc:GroupBox  Header="Componentes de la fórmula">
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="370*"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="35"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <dxg:GridControl ItemsSource="{Binding LstComponentesFormula,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedItem="{Binding ComponenteFormulaSeleccionado}" AllowLiveDataShaping="True"  >
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding DcEliminaFila}" CommandParameter="2"/>
+                            </dxmvvm:Interaction.Behaviors>
+                            <dxg:GridControl.View>
+                                <dxg:TableView   AllowEditing="True" ShowGroupPanel="False" NewItemRowPosition="Bottom"    EnableImmediatePosting="True">
+                                    <dxmvvm:Interaction.Triggers>
+                                        <dxmvvm:EventToCommand Command="{Binding DcActualizarCostoFormula}" EventName="CellValueChanging"/>
+                                    </dxmvvm:Interaction.Triggers>
+                                </dxg:TableView>
+                            </dxg:GridControl.View>
+                            <dxg:GridControl.Columns>
+                                <dxg:GridColumn Header="Clave" Width="80" FieldName="Clave"></dxg:GridColumn>
+
+                                <dxg:GridColumn Header="Componente" FieldName="ComponenteHijoId"  Width="250">
+                                    <dxg:GridColumn.EditSettings>
+
+                                        <dxg:LookUpEditSettings  ItemsSource="{Binding LstComponentes}" DisplayMember="Nombre" ValueMember="Id"  AutoPopulateColumns="False" IsPopupAutoWidth="False"   >
+                                            <dxg:LookUpEditSettings.PopupContentTemplate >
+                                                <ControlTemplate>
+                                                    <dxg:GridControl Name="PART_GridControl" >
+                                                        <dxg:GridControl.Columns>
+                                                            <dxg:GridColumn Header="Clave" FieldName="Clave" ReadOnly="True" />
+                                                            <dxg:GridColumn Header="Nombre" FieldName="Nombre"  />
+                                                            <dxg:GridColumn Header="Unidad" FieldName="Unidades.Abreviatura" />
+                                                            <dxg:GridColumn Header="Tipo" FieldName="TiposComponentes.Nombre" />
+                                                            <dxg:GridColumn Header="Grupo" FieldName="GruposComponentes.Nombre" />
+                                                            <dxg:GridColumn Header="Subgrupo" FieldName="SubgruposComponentes.Nombre" />
+                                                        </dxg:GridControl.Columns>
+                                                        <dxg:GridControl.View>
+                                                            <dxg:TableView AutoWidth="True" ShowAutoFilterRow="True"/>
+                                                        </dxg:GridControl.View>
+                                                    </dxg:GridControl>
+                                                </ControlTemplate>
+                                            </dxg:LookUpEditSettings.PopupContentTemplate>
+
+                                        </dxg:LookUpEditSettings>
+
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+
+                                <dxg:GridColumn Header="Cantidad" FieldName="Cantidad" Width="80"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Unidad" FieldName="UnidadId"  Width="60"   >
+                                    <dxg:GridColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <!--If you assign the "PART_Editor" name, the grid automatically controls cell appearance when showing/printing/exporting data. 
+                                        It also manages the cell value. If you do not assign this name, you will encounter some problems when printing and exporting.
+                                        Also, cell data can be shown in a wrong manner.-->
+                                            <dxe:ComboBoxEdit Name="PART_Editor" ValueMember="Id" DisplayMember="Abreviatura" ItemsSource="{Binding RowData.Row.LstUnidades}" />
+                                        </DataTemplate>
+                                    </dxg:GridColumn.CellTemplate>
+
+                                    <!--<dxg:GridColumn.EditSettings>
+                                    <dxe:ComboBoxEditSettings ItemsSource="{Binding LstUnidadesFormula}" AutoComplete="True" 
+                                                  DisplayMember="Abreviatura" ValueMember="Id" ImmediatePopup="True" />
+                                </dxg:GridColumn.EditSettings>-->
+                                </dxg:GridColumn>
+                                <dxg:GridColumn Header="Costo Unitario" FieldName="CostoUnitario" ReadOnly="True">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings DisplayFormat="$0.00" MaskType="Numeric" />
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn Header="Costo Total" FieldName="CostoTotal" ReadOnly="True">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings DisplayFormat="$0.00" MaskType="Numeric" />
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                            </dxg:GridControl.Columns>
+                            <!--      <dxg:GridControl.TotalSummary>
+
+                                <dxg:GridSummaryItem FieldName="CostoTotal" SummaryType="Sum" DisplayFormat="Costo Total: {0:c2}" Alignment="Right"/>
+                            </dxg:GridControl.TotalSummary>-->
+                        </dxg:GridControl>
+
+                        <Grid Grid.Row="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="150*"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="150*"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="150*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label  Grid.Column="0"   Content="Rendimiento:"/>
+                            <dxe:TextEdit  Grid.Column="1"  EditValue="{Binding Item.Rendimiento, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"    Mask="[A-ZÑÁÉÍÓÚ0-9 /.][A-ZÑÁÉÍÓÚ0-9 .]{0,29}" >
+                                <dxmvvm:Interaction.Triggers>
+                                    <dxmvvm:EventToCommand EventName="EditValueChanged"   Command="{Binding DcActualizarCostoFormula }" ></dxmvvm:EventToCommand>
+                                </dxmvvm:Interaction.Triggers>
+                            </dxe:TextEdit>
+                            <Label Grid.Column="3"   Content="Costo por unidad:"/>
+                            <dxe:TextEdit    Grid.Column="4" EditValue="{Binding CostoUnidad, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True,Mode=TwoWay}"    IsReadOnly="True" Opacity="0.9" IsEnabled="False" />
+                            <Label Grid.Column="6"   Content="Costo Total:"/>
+                            <dxe:TextEdit    Grid.Column="7" EditValue="{Binding CostoFormula, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True,Mode=TwoWay}"    IsReadOnly="True" Opacity="0.9" IsEnabled="False" />
+
+                        </Grid>
+                    </Grid>
+
+                </dxlc:GroupBox>
+
+
+            </Grid>
+
+        </TabItem>
+        <TabItem Header="Historial de Fórmula">
+            <Grid  MinHeight="460" MinWidth="775">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200*"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="250*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="775*"/>
+                </Grid.ColumnDefinitions>
+                <dxlc:GroupBox  Header="Fórmulas Anteriores"  Grid.Row="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="630*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="110"/>
+                        </Grid.ColumnDefinitions>
+
+                        <dxg:GridControl  ItemsSource="{Binding LstHistorialFormula}" SelectedItem="{Binding HistorialFormulaSeleccionado}" >
+                            <dxg:GridControl.View>
+                                <dxg:TableView  ShowGroupPanel="False" ShowAutoFilterRow="True" AllowEditing="False">
+                                </dxg:TableView>
+                            </dxg:GridControl.View>
+                            <dxg:GridControl.Columns>
+                                <dxg:GridColumn Header="Fecha Creacion" Width="170" Binding="{Binding FechaCreacion}" >
+                                    <dxg:GridColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <dxe:TextEdit Name="PART_Editor" Mask="dd MMM yyyy HH:mm:ss" MaskType="DateTime"
+                                          MaskUseAsDisplayFormat="True"/>
+                                        </DataTemplate>
+                                    </dxg:GridColumn.CellTemplate>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn Header="Usuario" Binding="{Binding UsuarioCreo}"  Width="200"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Rendimiento" Binding="{Binding Rendimiento}"  Width="100"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Costo total" Binding="{Binding CostoTotal}"  Width="120">
+
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings DisplayFormat="$0.00" MaskType="Numeric" />
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                            </dxg:GridControl.Columns>
+                        </dxg:GridControl>
+
+                        <Button Grid.Column="2"  Content="VER HISTORIAL" Height="35" VerticalAlignment="Top" Command="{Binding DcCargarHistorial}" />
+
+                    </Grid>
+
+
+                </dxlc:GroupBox>
+                <dxlc:GroupBox  Header="Componentes de la fórmula seleccionada"  Grid.Row="2">
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="752*"/>
+                        </Grid.ColumnDefinitions>
+                        <dxg:GridControl ItemsSource="{Binding LstHistorialFormulaDetalle}" >
+
+                            <dxg:GridControl.View>
+                                <dxg:TableView   ShowGroupPanel="False"  AllowEditing="False">
+                                </dxg:TableView>
+                            </dxg:GridControl.View>
+                            <dxg:GridControl.Columns>
+                                <dxg:GridColumn Header="Clave" Width="80" FieldName="Clave"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Componente" FieldName="NombreComponente"  Width="250"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Cantidad" FieldName="Cantidad" Width="80"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Unidad" FieldName="NombreUnidad"  Width="60"></dxg:GridColumn>
+                                <dxg:GridColumn Header="Costo Unitario" FieldName="CostoUnitario" Width="100">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings DisplayFormat="$0.00" MaskType="Numeric" />
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                                <dxg:GridColumn Header="Costo Total" FieldName="CostoTotal">
+                                    <dxg:GridColumn.EditSettings>
+                                        <dxe:TextEditSettings DisplayFormat="$0.00" MaskType="Numeric" />
+                                    </dxg:GridColumn.EditSettings>
+                                </dxg:GridColumn>
+                            </dxg:GridControl.Columns>
+                        </dxg:GridControl>
+                    </Grid>
+
+                </dxlc:GroupBox>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Compras/Ventas">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="460*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="485*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="195*"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="475*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <dxlc:GroupBox  Header="Impuestos " Grid.Row="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="445*"/>
+
+                            </Grid.ColumnDefinitions>
+                            <dxg:GridControl ItemsSource="{Binding LstComponentesImpuestos,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding ImpuestoSeleccionado}"  SelectionMode="Row" >
+                                <dxmvvm:Interaction.Behaviors>
+                                    <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding DcEliminaFila}" CommandParameter="4"/>
+                                </dxmvvm:Interaction.Behaviors>
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" NewItemRowPosition="Bottom" AllowSorting="False" AllowFilterEditor="False" AllowColumnFiltering="False"/>
+                                </dxg:GridControl.View>
+                                <dxg:GridControl.Columns>
+                                    <dxg:GridColumn Header="Impuesto" Width="250" FieldName="ImpuestoId" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:ComboBoxEditSettings ItemsSource="{Binding LstImpuestos}" AutoComplete="True" 
+                                                  DisplayMember="Nombre" ValueMember="Id" ImmediatePopup="True"/>
+                                        </dxg:GridColumn.EditSettings>
+
+                                    </dxg:GridColumn>
+
+
+
+                                </dxg:GridControl.Columns>
+                            </dxg:GridControl>
+
+
+
+                        </Grid>
+                    </dxlc:GroupBox>
+                </Grid>
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

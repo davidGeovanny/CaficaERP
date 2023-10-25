@@ -1,0 +1,133 @@
+﻿<UserControl x:Class="CaficaERP.Views.Inventarios.TomaInventarioFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+              xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:HiddenButton="clr-namespace:CaficaERP"
+             mc:Ignorable="d" MinWidth="800" MinHeight="600">
+    <UserControl.Resources>
+        <HiddenButton:CountToBoolConverter x:Key="countToBoolConverter"/>
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem Header="Inventario Fisico">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="400*"/>
+                </Grid.RowDefinitions>
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="80*"/>
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="label1" Content="Fecha" Grid.Row="0"  />
+                    <Label x:Name="label2" Content="Folio"  Grid.Row="0" Grid.Column="3"  />
+                    <Label x:Name="label4" Content="Almacen"  Grid.Row="1" Grid.Column="0"  />
+                    <Label x:Name="label6" Content="Descripcion del movimiento:"   Grid.Column="6" Grid.Row="0" />
+                    <dxe:TextEdit  Grid.Column="4" Text="{Binding Item.Id, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  Mask="[a-zA-Z0-9 _]{0,45}" Opacity="0.7" IsReadOnly="True" />
+                    <dxe:ComboBoxEdit Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" AutoComplete="True" IsTextEditable="True"  ClearSelectionOnBackspace="True"  ItemsSource="{Binding  LstAlmacenes}" DisplayMember="Nombre" ValueMember="Id" EditValue="{Binding Item.AlmacenId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" SelectedItem="{Binding AlmacenSeleccionado}"  IsEnabled="{Binding CmbAlmacenActivo}"  Opacity="{Binding CmbAlmacenOpacity}"/>
+                    <TextBox Grid.Column="6" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" TextWrapping="Wrap" AcceptsReturn="True"  Text="{Binding Item.Descripcion, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+                    <dxe:DateEdit  Grid.Column="1" EditValue="{Binding Item.Fecha, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                    <Button x:Name="button"  Grid.Column="1" Grid.ColumnSpan="4"  Grid.Row="2"  Command="{Binding CargarComponentesCommand}" IsEnabled="{Binding BtnCargarComponentesActivo}">Cargar componentes</Button>
+                </Grid>
+                <dxlc:GroupBox Header="Detalles"  Grid.Row="2">
+                    <dxg:GridControl Name="GridDetalles" ItemsSource="{Binding Item.InventariosFisicosDetalles,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedItem="{Binding DetalleComponenteSeleccionado}" CurrentItem="{Binding DetalleActual}" SelectionMode="Row">
+                        <dxmvvm:Interaction.Triggers>
+
+                        </dxmvvm:Interaction.Triggers>
+                        <dxmvvm:Interaction.Behaviors>
+                            <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding EliminaFilaCommand}" CommandParameter="{Binding ElementName=GridLotesSeries, Path=SelectedItem}"/>
+                            <HiddenButton:MasterDetailService />
+                        </dxmvvm:Interaction.Behaviors>
+                        <!-- Grid de detalle lotes y serie -->
+                        <dxg:GridControl.DetailDescriptor>
+                            <dxg:DataControlDetailDescriptor ItemsSourceBinding="{Binding InventariosFisicosLotesSeries,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" >
+                                <dxg:GridControl Name="GridLotesSeries"  SelectedItem="{Binding SubDetalleSeleccinado}" CurrentItem="{Binding SubDetalleActual}" AllowLiveDataShaping="True" SelectionMode="Row">
+                                    <dxg:GridControl.Resources>
+                                        <Style TargetType="dxg:GridColumn">
+                                            <Setter Property="ReadOnly" Value="{Binding SoloLectura}" />
+                                        </Style>
+                                    </dxg:GridControl.Resources>
+                                    <dxg:GridControl.View>
+                                        <dxg:TableView  AllowEditing="True" AllowSorting="False" AllowFilterEditor="False" AllowColumnFiltering="False" ShowGroupPanel="False" ShowColumnHeaders="False">
+                                            <dxmvvm:Interaction.Triggers>
+                                                <dxmvvm:EventToCommand Command="{Binding ValidarComponenteSerieLoteCommand}" EventName="CellValueChanged" PassEventArgsToCommand="True">
+                                                    <dxmvvm:EventToCommand.EventArgsConverter>
+                                                        <dx:EventArgsToDataCellConverter />
+                                                    </dxmvvm:EventToCommand.EventArgsConverter>
+                                                </dxmvvm:EventToCommand>
+                                            </dxmvvm:Interaction.Triggers>
+                                        </dxg:TableView>
+                                    </dxg:GridControl.View>
+                                    <dxg:GridControl.Columns>
+                                        <dxg:GridColumn FieldName="Seguimiento" Width="65" ReadOnly="True">
+                                            <dxg:GridColumn.EditSettings>
+                                                <dxe:TextEditSettings HorizontalContentAlignment="Right"/>
+                                            </dxg:GridColumn.EditSettings>
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="LotesSeries.SerieLote" Width="340" ReadOnly="False"/>
+                                        <dxg:GridColumn FieldName="Cantidad" Width="63" ReadOnly="{Binding ReadOnly}">
+                                        </dxg:GridColumn>
+                                        <dxg:GridColumn FieldName="Caducidad" Width="73" ReadOnly="True" />
+                                        <dxg:GridColumn FieldName="LotesSeries.FechaCaducidad" Width="120" ReadOnly="{Binding ReadOnly}"/>
+                                    </dxg:GridControl.Columns>
+                                </dxg:GridControl>
+                            </dxg:DataControlDetailDescriptor>
+                        </dxg:GridControl.DetailDescriptor>
+                        <!-- Grid de detalle lotes y serie -->
+                        <dxg:GridControl.Resources>
+                            <Style TargetType="dxg:GridColumn">
+                                <Setter Property="ReadOnly" Value="{Binding SoloLectura}"/>
+                            </Style>
+                        </dxg:GridControl.Resources>
+                        <dxg:GridControl.View>
+                            <dxg:TableView  x:Name="view" AllowSorting="False" AllowScrollAnimation="True" AutoWidth="True" AllowEditing="True" ShowGroupPanel="False" IsDetailButtonVisibleBinding="{Binding Row.InventariosFisicosLotesSeries.Count, Converter={StaticResource countToBoolConverter}}">
+                                <dxmvvm:Interaction.Triggers>
+                                    <dxmvvm:EventToCommand Command="{Binding ValidarComponenteCommand}" EventName="CellValueChanged" PassEventArgsToCommand="True">
+                                        <dxmvvm:EventToCommand.EventArgsConverter>
+                                            <dx:EventArgsToDataCellConverter />
+                                        </dxmvvm:EventToCommand.EventArgsConverter>
+                                    </dxmvvm:EventToCommand>
+                                    <dxmvvm:EventToCommand Command="{Binding DesactivarCeldasCommand}" EventName="PreviewGotKeyboardFocus" PassEventArgsToCommand="True">
+                                        <dxmvvm:EventToCommand.EventArgsConverter>
+                                            <dx:EventArgsToDataCellConverter />
+                                        </dxmvvm:EventToCommand.EventArgsConverter>
+                                    </dxmvvm:EventToCommand>
+                                </dxmvvm:Interaction.Triggers>
+                            </dxg:TableView>
+                        </dxg:GridControl.View >
+                        <dxg:GridControl.Columns>
+                            <dxg:GridColumn Header="Clave" FieldName="Componentes.Clave" Width="25.8" ReadOnly="True" />
+                            <dxg:GridColumn Header="Componente" FieldName="Componentes.Id" Width="0" Visible="False"  ReadOnly="True"/>
+                            <dxg:GridColumn Header="Componente" FieldName="Componentes.Nombre" Width="121" SortOrder="Ascending" ReadOnly="True" />
+                            <dxg:GridColumn Header="Existencia" FieldName="ExistenciaFisica" Width="25" />
+                            <dxg:GridColumn Header="Unidad" FieldName="Componentes.UnidadInventarioId" Width="70" ReadOnly="True">
+                                <dxg:GridColumn.EditSettings>
+                                    <dxe:ComboBoxEditSettings ItemsSource="{Binding LstUnidades}" AutoComplete="True" IsEnabled="False" DisplayMember="Abreviatura" ValueMember="Id" />
+                                </dxg:GridColumn.EditSettings>
+                            </dxg:GridColumn>
+                        </dxg:GridControl.Columns>
+                    </dxg:GridControl>
+                </dxlc:GroupBox>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

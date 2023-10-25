@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="CaficaERP.Views.Inventarios.AlmacenesGridView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"  
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:filtered="clr-namespace:CaficaERP"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <dxlc:DockLayoutControl>
+        <dxg:GridControl ItemsSource="{Binding LstItems}" dxlc:DockLayoutControl.Dock="Client" SelectionMode="Row" AllowLiveDataShaping="False" AutoExpandAllGroups="True" SelectedItem="{Binding ItemSeleccionado}" filtered:FilteredDataSupport.VisibleData="{Binding VisibleData, Mode=TwoWay}">
+            <dxmvvm:Interaction.Triggers>
+                <dxmvvm:EventToCommand Command="{Binding DcAbrir}" EventName="MouseDoubleClick">
+                    <dxmvvm:EventToCommand.EventArgsConverter>
+                        <dx:EventArgsToDataRowConverter />
+                    </dxmvvm:EventToCommand.EventArgsConverter>
+                </dxmvvm:EventToCommand>
+            </dxmvvm:Interaction.Triggers>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" ShowTotalSummary="True" ShowAutoFilterRow="True"/>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Header="Clave" Binding="{Binding Clave}" ></dxg:GridColumn>
+                <dxg:GridColumn Header="Nombre" Binding="{Binding Nombre}" ></dxg:GridColumn>
+                <dxg:GridColumn Header="Tipo Almacen" Binding="{Binding TipoAlmacen}" ></dxg:GridColumn>
+                <dxg:GridColumn Header="Activo" Binding="{Binding Activo}" ></dxg:GridColumn>
+                <dxg:GridColumn Header="Tipo Componentes" Binding="{Binding TiposComponentes.Nombre}" ></dxg:GridColumn>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+    </dxlc:DockLayoutControl>
+</UserControl>

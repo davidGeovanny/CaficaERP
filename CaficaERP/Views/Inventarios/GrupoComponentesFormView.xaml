@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="CaficaERP.Views.Inventarios.GrupoComponentesFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Inventarios"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d" MinWidth="400" MinHeight="130"
+             >
+    <TabControl x:Name="tabControl" >
+
+        <TabItem Header="Datos del Grupo">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="label" Content="Nombre:"  Grid.Row="1"  />
+                <Label x:Name="label1" Content="Tipo:" Grid.Row="2" />
+
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" ToolTip="Nombre" Mask="[A-ZÑ1-9][A-ZÑ1-9 ]{0,44}"    />
+                <dxe:ComboBoxEdit AutoComplete="True" IsTextEditable="True"  Grid.Row="2" Grid.Column="1" ItemsSource="{Binding LstTiposComponentes}" DisplayMember="Nombre" ValueMember="Id" ToolTip="Tipo de componente" EditValue="{Binding Item.TipoComponenteId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding TipoComponenteSeleccionado}"  Mask="[A-ZÑÁÉÍÓÚ][A-ZÑÁÉÍÓÚ ]{0,44}"  />
+
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

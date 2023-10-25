@@ -1,0 +1,138 @@
+﻿<dx:DXWindow xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"  xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+    x:Class="CaficaERP.Views.BaseView"
+    x:Name="FrmFormPrincipal"
+    xmlns:ViewModel="clr-namespace:CaficaERP.ViewModel"
+       xmlns:my="clr-namespace:CaficaERP"      
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+    xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    Title="{Binding FormTitulo}" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ShowIcon="True" 
+             Icon="/CaficaERP;component/Imagenes/IconERP.png">
+    <dx:DXWindow.Resources>
+        <Style TargetType="dxe:TextEdit">
+            <Setter Property="Margin" Value="2,2,2,2" />
+            <Setter Property="Mask" Value="[^ ].*" />
+            <Setter Property="Height" Value="28" />
+            <Setter Property="MaskBeepOnError" Value="True" />
+            <Setter Property="MaskType" Value="RegEx" />
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="dxe:PasswordBoxEdit">
+            <Setter Property="Margin" Value="2,2,2,2" />
+            <Setter Property="Height" Value="28" />
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="dxe:ComboBoxEdit">
+            <Setter Property="Margin" Value="2,2,2,2" />
+            <Setter Property="Height" Value="28" />
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="dxg:LookUpEdit">
+            <Setter Property="Margin" Value="2,2,2,2" />
+            <Setter Property="Height" Value="28" />
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="dxe:DateEdit">
+            <Setter Property="Margin" Value="2,2,2,2" />
+            <Setter Property="Height" Value="28" />
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="IsEnabled" Value="{Binding CamposEnabled}" />
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>
+        <Style TargetType="TabControl">
+            <Setter Property="Width" Value="{Binding RelativeSource={RelativeSource Self},Path=Parent.ActualWidth}" />
+            <Setter Property="Height" Value="{Binding RelativeSource={RelativeSource Self},Path=Parent.ActualHeight}" />
+        </Style>
+        <!--
+        <Style TargetType="Grid">
+            <Setter Property="my:EnterKeyTraversal.IsEnabled" Value="True" />
+        </Style>-->
+
+
+    </dx:DXWindow.Resources>
+            <DockPanel LastChildFill="True" FocusManager.FocusedElement="{Binding ElementName=bGuardar}">
+        <dxb:MainMenuControl Caption="Main Menu" DockPanel.Dock="Top" TabIndex="-1">
+            <dxb:BarSubItem Name="smFile" CategoryName="BuiltIn" Content="Opciones" >
+                <dxb:BarSubItem.Items>
+                    <dxb:BarButtonItem Name="bGuardar" CategoryName="File" Content="Guardar y Cerrar" Glyph="/Imagenes/Barras/guardar.png" KeyGesture="Ctrl+G" Hint="Guarda cambios y cierra la ventana" Command="{Binding DcGuardar}" CloseSubMenuOnClick="True"/>
+                    <dxb:BarButtonItem Name="bGuardarLimpiar" CategoryName="File" Content="Guardar y limpiar" Glyph="/Imagenes/Barras/guardarlimpiar.png" KeyGesture="Ctrl+N" Hint="Guarda cambios y limpia campos" Command="{Binding DcGuardarLimpiar}"/>
+                    <dxb:BarButtonItem Name="bEliminar" CategoryName="File" Content="Eliminar" Glyph="/Imagenes/Barras/eliminar.png" Hint="Elimina el ítem" Command="{Binding DcEliminar}"/>
+                    <dxb:BarItemSeparator/>
+                    <dxb:BarButtonItem Name="bDeshacer" CategoryName="File" Content="Deshacer"  Glyph="/Imagenes/Barras/undo.png" Hint="Deshacer los cambios" Command="{Binding DcDeshacer}"/>
+                    <dxb:BarButtonItem Name="bCancelar" CategoryName="File" Content="Cancelar"  Glyph="/Imagenes/Barras/cancelar.png" Hint="Cancelar documento" Command="{Binding DcCancelar}" IsVisible="{Binding IconCancelar}"/>
+                    <dxb:BarItemSeparator/>
+                    <dxb:BarButtonItem Name="bAnterior" CategoryName="File" Content="Anterior" Glyph="/Imagenes/Barras/anterior.png" Hint="Carga el ítem anterior" KeyGesture="Ctrl+A" Command="{Binding DcAnterior}"/>
+                    <dxb:BarButtonItem Name="bSiguiente" CategoryName="File" Content="Siguiente"  Glyph="/Imagenes/Barras/siguiente.png" Hint="Carga el ítem siguiente" KeyGesture="Ctrl+S" Command="{Binding DcSiguiente}" />
+                    <dxb:BarItemSeparator/>
+                    <dxb:BarButtonItem Name="bImprimir" CategoryName="File" Content="Imprimir" Glyph="/Imagenes/Barras/imprimir.png"  Hint="Imprime el ítem"  KeyGesture="Ctrl+I" Command="{Binding DcImprimir}" />
+                    <dxb:BarButtonItem Name="bImprimirTicket" CategoryName="File" Content="Imprimir ticket"  Glyph="/Imagenes/Barras/ticket.png" Hint="Imprime el ticket del documento" Command="{Binding DcImprimirTicket}" IsVisible="{Binding IconTicket}"/>
+                    <dxb:BarItemSeparator/>
+                </dxb:BarSubItem.Items>
+            </dxb:BarSubItem>
+        </dxb:MainMenuControl>
+        <dxb:ToolBarControl Name="Toolbar" Caption="Standard" DockPanel.Dock="Top" TabIndex="-1">
+            <dxb:BarButtonItemLink BarItemName="bGuardar"/>
+            <dxb:BarButtonItemLink BarItemName="bGuardarLimpiar"/>
+            <dxb:BarButtonItemLink BarItemName="bCerrar"/>
+            <dxb:BarButtonItemLink BarItemName="bEliminar"/>
+            <dxb:BarButtonItemLink BarItemName="bDeshacer" />
+            <dxb:BarButtonItemLink BarItemName="bCancelar" IsVisible="{Binding IconCancelar}"/>
+            <dxb:BarButtonItemLink BarItemName="bAnterior"/>
+            <dxb:BarButtonItemLink BarItemName="bSiguiente"/>
+            <dxb:BarButtonItemLink BarItemName="bImprimir"/>
+            <dxb:BarButtonItemLink BarItemName="bImprimirTicket" IsVisible="{Binding IconTicket}"/>
+            <dxb:BarItemLinkSeparator/>
+        </dxb:ToolBarControl>
+        <dxb:StatusBarControl Caption="Status Bar" DockPanel.Dock="Bottom" TabIndex="-1"  FontSize="11" FontStyle="Italic" FontWeight="SemiBold">
+            <dxb:StatusBarControl.Items>
+
+                <dxb:BarEditItem Content="Creado:" Content2="{Binding}"> 
+                    <dxb:BarEditItem.Content2Template>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Item.UsuarioCreo}" FontStyle="Normal" FontWeight="Normal" />
+                        </DataTemplate>
+                    </dxb:BarEditItem.Content2Template>
+                </dxb:BarEditItem>
+                
+                <dxb:BarEditItem  Content="{Binding}" >
+                    <dxb:BarEditItem.ContentTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Item.FechaCreacion, StringFormat='{}{0:dd/MM/yyyy hh:mm:ss tt}'}"  FontStyle="Normal" FontWeight="Normal"/>
+                        </DataTemplate>
+                    </dxb:BarEditItem.ContentTemplate>
+                </dxb:BarEditItem>
+                <dxb:BarItemSeparator />
+                <dxb:BarEditItem Content="Modificado:" Content2="{Binding}" >
+                    <dxb:BarEditItem.Content2Template>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Item.UsuarioModifico}" FontStyle="Normal" FontWeight="Normal" />
+                        </DataTemplate>
+                    </dxb:BarEditItem.Content2Template>
+                </dxb:BarEditItem>
+                <dxb:BarEditItem  Content="{Binding}" >
+                    <dxb:BarEditItem.ContentTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Item.FechaUltimaModificacion, StringFormat='{}{0:dd/MM/yyyy hh:mm:ss tt}'}" FontStyle="Normal" FontWeight="Normal" />
+                        </DataTemplate>
+                    </dxb:BarEditItem.ContentTemplate>
+                </dxb:BarEditItem>
+
+
+            </dxb:StatusBarControl.Items>
+
+        </dxb:StatusBarControl>
+
+        <dxdo:DocumentPanel x:Name="docPanel1" Content="{Binding ContentView}"/>
+    </DockPanel>
+</dx:DXWindow>

@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="CaficaERP.Views.Ventas.Monedero.CentrosCanjeMonederoFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Ventas.Monedero"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             
+             MinWidth="420" MinHeight="150">
+    <TabControl x:Name="tabControl" >
+
+        <TabItem  Header="Datos del socio">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="270"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+            
+
+
+
+                </Grid.RowDefinitions>
+
+                <Label x:Name="label" Content="Nombre:"    Grid.Row="1"   />
+                <Label x:Name="label1" Content="Almacen: " Grid.Row="2"   Grid.ColumnSpan="2"/>
+
+
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1"  Text="{Binding Item.Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  Mask="[A-Z0-9/-/%$#.,][A-Z0-9/-/%$#., ]{0,45}" />
+                <dxe:ComboBoxEdit   Grid.Row="2" Grid.Column="1"  AutoComplete="True" IsTextEditable="True" ItemsSource="{Binding LstAlmacenes}" DisplayMember="Nombre" ValueMember="Id" ToolTip="Almacen" EditValue="{Binding Item.AlmacenId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding AlmacenSeleccionado}"  Mask="[A-ZÑÁÉÍÓÚ][A-ZÑÁÉÍÓÚ ]{0,44}"  />
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

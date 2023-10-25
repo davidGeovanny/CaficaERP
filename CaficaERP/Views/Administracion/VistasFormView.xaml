@@ -1,0 +1,120 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Administracion"
+             xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="CaficaERP.Views.Administracion.VistasFormView"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+               MinHeight="630" MinWidth="750"
+             mc:Ignorable="d" >
+    <TabControl x:Name="tabControl">
+        <TabItem Header="Configuracion General">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="470*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="400*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="label" Content="Nombre" Grid.Row="1" />
+                <Label x:Name="label1" Content="Parametros" Grid.Row="2" />
+                <Label x:Name="label5" Content="Imagen Ruta"   Grid.Row="3" />
+                <Label x:Name="label6" Content="Tipo"  Grid.Row="4"/>
+
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" MaxLength="45" Text="{Binding Item.Nombre,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" ToolTip="Nombre" Mask="[-._/A-Za-z0-9 _]{0,45}"/>
+                <dxe:TextEdit Grid.Column="1" Grid.Row="2" MaxLength="200" Text="{Binding Item.Parametros,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" ToolTip="Parametros" Mask="[-,._/A-Za-z0-9 _]{0,200}"/>
+                <dxe:TextEdit Grid.Column="1" Grid.Row="3" MaxLength="100" Text="{Binding Item.ImagenMenu,UpdateSourceTrigger=PropertyChanged}" ToolTip="Imagen Ruta" Mask="[-,._/A-Za-z0-9 _]{0,100}"/>
+                <dxe:ComboBoxEdit  Grid.Column="1" Grid.Row="4" AutoComplete="True" IsTextEditable="True"  ItemsSource="{Binding LstTiposVista}"  DisplayMember="nombre" ValueMember="nombre" EditValue="{Binding Item.Tipo,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  SelectedItem="{Binding TipoVistaSeleccionado}"  />
+                <Label  Content="Seleccione los grupos que pertenecen a la vista" HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" FontSize="10"/>
+                <dxg:TreeListControl  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding LstGruposVistas,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding PermisoSeleccionado,UpdateSourceTrigger=PropertyChanged}"  SelectionMode="Row"  Grid.RowSpan="4">
+                    <dxg:TreeListControl.Columns>
+                        <dxg:TreeListColumn FieldName="IsChecked" Width="20" />
+                        <dxg:TreeListColumn FieldName="Nombre" Width="250" ReadOnly="True" />
+                    </dxg:TreeListControl.Columns>
+                    <dxg:TreeListControl.View>
+                        <dxg:TreeListView Name="treeListView2" ShowTotalSummary="True" KeyFieldName="Index" ShowIndicator="False" ShowColumnHeaders="False"
+                                  ParentFieldName="ParentId"  AllowRecursiveNodeChecking="True" ShowHorizontalLines="False" ShowVerticalLines="False">
+                            <dxmvvm:Interaction.Triggers>
+                                <dxmvvm:EventToCommand Command="{Binding DcCell}" EventName="CellValueChanging"/>
+                            </dxmvvm:Interaction.Triggers>
+                        </dxg:TreeListView>
+                    </dxg:TreeListControl.View>
+                </dxg:TreeListControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Tablas" Visibility="{Binding TablasVisibility}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="550*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500*"/>
+                </Grid.ColumnDefinitions>
+                
+                <dxg:GridControl  SelectionMode="Row" AllowLiveDataShaping="False" AutoExpandAllGroups="True" ItemsSource="{Binding LstTablas,ValidatesOnDataErrors=True}" SelectedItem="{Binding TablaSeleccionada}">
+                    <dxg:GridControl.View>
+                        <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" />
+                    </dxg:GridControl.View>
+                    <dxg:GridControl.Columns>
+                        <dxg:GridColumn Header=" " Binding="{Binding isChecked,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Width="20" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Tabla" Binding="{Binding Nombre,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Width="300" ReadOnly="True" ></dxg:GridColumn>
+                    </dxg:GridControl.Columns>
+                </dxg:GridControl>
+
+                <!--<dxe:CheckEdit Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="3" VerticalAlignment="Top" Width="150"/>-->  
+            </Grid>
+        </TabItem>
+        <TabItem Header="Filtros Reporte" Visibility="{Binding FiltrosVisibility}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="500*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="470*"/>
+                </Grid.ColumnDefinitions>
+
+                <dxg:GridControl  ItemsSource="{Binding LstFiltrosReportes,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding FiltroReporteSeleccionado}" SelectionMode="Row">
+                    <dxmvvm:Interaction.Behaviors>
+                        <dxmvvm:KeyToCommand KeyGesture="F12" Command="{Binding DcEliminaFila}"/>
+                    </dxmvvm:Interaction.Behaviors>
+                    <dxg:GridControl.View>
+                        <dxg:TableView AllowPerPixelScrolling="True" AllowEditing="True" ShowGroupPanel="False" NewItemRowPosition="Bottom" />
+                       
+                    </dxg:GridControl.View>
+                    <dxg:GridControl.Columns>
+                         
+                        <dxg:GridColumn Header="Etiqueta" Width="120" FieldName="Etiqueta" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Tipo" Width="65" FieldName="Tipo"  >
+                            <dxg:GridColumn.EditSettings>
+                                <dxe:ComboBoxEditSettings ItemsSource="{Binding LstTiposFiltro}" AutoComplete="True" 
+                                                  DisplayMember="nombre" ValueMember="nombre" ImmediatePopup="True"/>
+                            </dxg:GridColumn.EditSettings>
+
+                        </dxg:GridColumn>
+                        <dxg:GridColumn Header="Lista" Width="110" FieldName="Lista" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Metodo Lista" Width="150" FieldName="MetodoLista" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Columnas" Width="150" FieldName="Columnas" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Nombre Parametro" Width="120" FieldName="NombreParametro" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Depende De Etiqueta" Width="120" FieldName="DependeDeEtiqueta" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Campo Value" Width="120" FieldName="CampoValue" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Campo Display" Width="120" FieldName="CampoDisplay" ></dxg:GridColumn>
+                        <dxg:GridColumn Header="Orden" Width="120" FieldName="Orden" ></dxg:GridColumn>
+                    </dxg:GridControl.Columns>
+                </dxg:GridControl>
+
+                <!--<dxe:CheckEdit Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="3" VerticalAlignment="Top" Width="150"/>-->
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="CaficaERP.Views.Generales.MonedasFormView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CaficaERP.Views.Compras"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d" MinWidth="440" MinHeight="250"
+              >
+    <TabControl x:Name="tabControl" >
+
+        <TabItem  Header="Datos de la moneda">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="96"/>
+                    <ColumnDefinition Width="96"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="96"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="label" Content="Nombre:"    Grid.Row="1"   />
+                <Label x:Name="label1" Content="Simbolo: " Grid.Row="2"   Grid.ColumnSpan="2"/>
+                <Label x:Name="label2" Content="Importe en letra:" Grid.Row="3"  Grid.ColumnSpan="2"/>
+                
+                <Label x:Name="label4" Content="Codigo:" Grid.Row="4" />
+                <Label x:Name="label7" Content="Predeterminado:" Grid.Row="5" Grid.Column="0"/>
+                <Label x:Name="label6" Content="Moneda Local:"  Grid.Row="5" Grid.Column="3"  />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Text="{Binding Item.Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="Nombre"      />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4"  Text="{Binding Item.Simbolo, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="Simbolo"  />
+                <dxe:TextEdit Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="4" Text="{Binding Item.TextoImporteLetra, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="Texto importe letra"  Mask="[A-ZÑÁÉÍÓÚ0-9 ][^A-Za-z0-9]{0,45}"  />
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="4" ItemsSource="{Binding LstCodigosMonedas}"  DisplayMember="Codigo" ValueMember="Id"  EditValue="{Binding Item.CodigoISOMonedaId,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" SelectedItem="{Binding CodigoSeleccionado}"  />
+
+                <dxe:ComboBoxEdit Grid.Column="1" Grid.Row="5" ItemsSource="{Binding LstSiNo}" DisplayMember="nombre" ValueMember="nombre"    EditValue="{Binding Item.Predeterminado,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"     />
+                <dxe:ComboBoxEdit Grid.Column="4" Grid.Row="5"  ItemsSource="{Binding LstSiNo}"  DisplayMember="nombre" ValueMember="nombre"  EditValue="{Binding Item.MonedaLocal,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" IsEnabled="False" />
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>
+
